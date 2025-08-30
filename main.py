@@ -68,7 +68,6 @@ def main():
             print(f"{date_str}: {miles} miles")
             print(f"{date_str}: {miles} miles", file=f)
         print(f"\nMileage total: {mileage}")
-        print(f"\nComp for mileage over 225: ${comp_over_225:.2f}", file=f)
         print(f"\nMileage total: {mileage}", file=f)
         print(f"Total compensation: ${comp:.2f}")
         print(f"Total compensation: ${comp:.2f}", file=f)
